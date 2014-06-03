@@ -1,11 +1,8 @@
 var _ = require('lodash')
 var request = require('request')
 var consolidate = require('consolidate')
-var bodyParser = require('body-parser')
-var cookieParser = require('cookie-parser')
 var express = require('express')
 var app = express()
-var util = require('util')
 
 
 var PORT = 8050;
